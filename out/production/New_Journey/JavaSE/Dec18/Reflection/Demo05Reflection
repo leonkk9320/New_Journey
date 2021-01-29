@@ -1,0 +1,10 @@
+反射机制：
+"将类各个组成部分封装为对象"
+或者说
+将类的内容封装进一个叫CLass的类，大写"C"，类名叫Class。一个类有且只有一个Class对象，里面包含了关于此类的信息。
+
+三种获取类对象的方式,只能获取，不能new
+
+Source： 程序--javac->.class阶段  Class: Class类对象阶段  Runtime：运行时阶段
+
+class loader: 类加载器， 将.class 文件转换为 Class类对象

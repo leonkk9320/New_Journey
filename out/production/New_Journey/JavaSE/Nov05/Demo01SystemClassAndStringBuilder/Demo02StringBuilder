@@ -1,0 +1,13 @@
+String 类:
+private finale byte[] value;
+被final修饰，不能改变
+字符串相加要创建多个字符串，效率低下
+
+
+
+StringBuilder 类：
+字符串缓冲区，可以提高字符串的操作效率（看成一个长度可变化的字符串）
+底层也是数组，但没有被final修饰，可以改变长度
+byte[] value = new byte[16]; 初始长度为16，扩容一次到32（乘2）
+StringBuilder 在内存中始终是一个数组，占用空间少，效率高
+线程不安全！

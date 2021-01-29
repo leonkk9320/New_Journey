@@ -1,0 +1,1 @@
+public enum Note{c, cs, d, ds, e, F, fs, g, gs}

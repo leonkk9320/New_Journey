@@ -1,0 +1,38 @@
+Byte:
+    InputStream
+        FileInputStream / FilterInputStream
+                                BufferedInputStream
+
+    OutputStream
+        FileOutputStream / FilterOutputStream
+                                BufferedOutputStream
+
+Char:
+    Writer
+        OutputStreamWriter / BufferedWriter
+            FileWriter
+
+    Reader
+        inputStreamReader / BufferedReader
+            FileReader
+
+                            byte                                char
+    IO          in       InputStream                        Writer
+                                FileInputStream                inputStreamReader
+                                                                     FileReader
+
+
+                out     OutputStream                        Reader
+                                FileOutputStream                OutputStreamWriter
+                                                                        FileWriter
+
+    Buffered    in       InputStream                        Writer
+                                FilterInputStream               BufferedWriter
+                                    BufferedInputStream
+
+                out     OutputStream                        Reader
+                                FilterOutputStream              BufferedReader
+                                      BufferedOutputStream
+
+
+    OutputStreamWriter/inputStreamReader 转换流

@@ -1,0 +1,8 @@
+                Throwable (父类)  java.lang包
+
+        Error                   Exception       （子类）
+  （工程师不能处理，只能避免）   （使用不当导致，可以避免）
+
+
+  Exception：编译期异常系统要求处理，会报错，让你添加throws 或者 try...catch
+  RuntimeException：运行时异常系统不要求处理，默认throws给JVM处理，JVM直接停止程序
