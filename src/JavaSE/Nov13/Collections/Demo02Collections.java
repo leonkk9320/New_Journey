@@ -52,7 +52,7 @@ public class Demo02Collections {
         ArrayList<Student> l3 = new ArrayList<>();
 
         l3.add(new Student("迪丽热巴" ,20));
-        l3.add(new Student("古力娜扎" ,18));
+        l3.add(new Student("古力娜扎" ,20));
         l3.add(new Student("玛尔扎哈" ,22));
 
         Collections.sort(l3, new Comparator<Student>() {
